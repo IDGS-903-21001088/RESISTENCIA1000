@@ -4,7 +4,7 @@ export default function Resistor() {
   return (
     <div style={{ display: "flex", justifyContent: "center", margin: "20px 0" }}>
   <img 
-    src="/images/resis.jpg" 
+    src="/src/images/resis.jpg" 
     alt="Resistencia"
     style={{ 
       maxWidth: "100%",
