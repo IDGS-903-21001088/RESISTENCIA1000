@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* --- que ocupe toda la pantalla horizontal --- */
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 0;
+}
+
+/* --- tarjeta centrada pero más ancha --- */
+.card {
+  width: 50%;               /* se expande más */
+  max-width: 1000;        /* antes era 800px */
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* --- título centrado --- */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+/* --- resultado visualmente atractivo --- */
+.resultado {
+  background: #d9fdd3;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 26px;
+  font-weight: bold;
+  color: #1b5e20;
+  border: 2px solid #a5d6a7;
+}
+
+/* --- la imagen del resistor centrada y escalable --- */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* color suave opcional */
+  display: flex;
+  justify-content: center;   /* centra horizontalmente */
+  align-items: center;       /* centra verticalmente */
+  height: 100vh;             /* ocupa toda la pantalla */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  padding: 40px;
+  max-width: 800px;
+  width: 90%;
+  text-align: center;
+}
